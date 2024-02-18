@@ -1,0 +1,249 @@
+.contentAll {
+  height: 100vh;
+  width: 100vw;
+  border: transparent 1px solid;
+}
+
+.content {
+  color: white;
+  text-align: center;
+  align-items: center;
+  width: 420px;
+  margin: auto;
+  margin-top: 12.5vh;
+  padding-top: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+  min-height: 110px;
+  transition: max-height  0.5s ease;
+  background: rgb(0, 86, 156);
+  box-shadow: 0px 0px 10px 5px rgb(139, 139, 139);
+}
+
+.open {
+  max-height: 590px;
+}
+
+.closed {
+  max-height: 110px;
+}
+
+.isDay {
+  background: linear-gradient(to bottom, rgb(1, 213, 250), rgb(0, 86, 156));
+  box-shadow: 0px 0px 10px 5px rgb(139, 139, 139);
+}
+
+.isNight {
+  background: linear-gradient(to top, rgb(28, 0, 105) ,rgb(0, 86, 156));
+  box-shadow: 0px 0px 10px 5px rgb(139, 139, 139);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.form input {
+  height: 45px;
+  width: 220px;
+  border: none;
+  background-color: #ebfffc;
+  text-align: left;
+  padding-left: 25px;
+  outline: none;
+  color: #626262;
+  border-radius: 100px;
+  margin-right: 15px;
+}
+
+.form button {
+  height: 45px;
+  width: 45px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebfffc;
+  border-radius: 40px;
+  cursor: pointer;
+  border: none;
+}
+
+.searchImage {
+  width: 15px;
+  height: 15px;
+}
+
+.imageIcon {
+  margin-bottom: -10px;
+}
+
+.primaryTemp {
+  font-size: 34px;
+}
+
+.cityName {
+  margin-bottom: 5px;
+}
+
+.secondaryTemps {
+  display: flex;
+  justify-content: center;
+}
+
+.sunSpot {
+  display: flex;
+  margin-top: -5px;
+}
+
+.sunSpotFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  font-size: 14px;
+  width: 50%;
+}
+
+.weatherData {
+  height: 222px;
+  overflow: scroll;
+  border-top: rgb(255, 255, 255) solid 3.5px;
+  background-color: #0d101680;
+  border-radius: 15px;
+}
+
+.scrollData {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.weatherData::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
+
+.allWeatherContent {
+  display: block;
+  overflow-x: auto;
+  width: 72%;
+  margin: auto;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: rgba(5, 5, 5, 0.4);
+}
+
+.allWeatherContent::-webkit-scrollbar {
+  height: 0px;
+  background-color: transparent;
+}
+
+.allWeatherFlex {
+  display: flex;
+}
+
+.allWeatherDay{
+  display: block;
+  text-align: center;
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.temperatureDay {
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.dateDay {
+  font-size: 13px;
+  display: flex;
+}
+
+.titleWeatherDay {
+  margin: auto;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  background-color: rgba(5, 5, 5, 0.4);
+  width: 72%;
+  padding: 5px 0px 0px 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-top: 15px;
+}
+
+
+.rainPercentage {
+  font-size: 13px;
+}
+
+.moreData {
+  text-align: left;
+  display: flex;
+  margin: auto;
+  width: 72%;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.visibilityData {
+  display: block;
+  margin: auto;
+  width: 47%;
+  background-color: rgba(5, 5, 5, 0.4);
+  margin-right: 7.5px;
+  border-radius: 15px;
+  padding: 5px 0px 5px 15px;
+  height: 120px;
+}
+
+.windData {
+  display: block;
+  margin: auto;
+  width: 47%;
+  background-color: rgba(5, 5, 5, 0.4);
+  margin-left: 7.5px;
+  border-radius: 15px;
+  padding: 5px 0px 0px 15px;
+  height: 120px;
+}
+
+.visibilityKm {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.humidityData {
+  display: block;
+  margin: auto;
+  width: 47%;
+  background-color: rgba(5, 5, 5, 0.4);
+  margin-left: 7.5px;
+  border-radius: 15px;
+  padding: 5px 0px 5px 15px;
+  height: 120px;
+}
+
+.dataText {
+  width: 90%;
+  font-size: 13px;
+  padding-right: 5px;
+  margin-top: 10px;
+}
+
+.titleImage {
+  margin-top: -5px;
+  margin-left: -10px;
+  display: flex;
+  align-items: center;
+}
+
+.humidityPersentaje {
+  font-size: 14px;
+}
+
+
