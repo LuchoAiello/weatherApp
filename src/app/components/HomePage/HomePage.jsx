@@ -85,7 +85,7 @@ const HomePage = () => {
               </div>
               <div className={styles.sunSpot}>
                 <p className={styles.sunSpotFlex}>
-                  Amanecer: {dateSunrise} am
+                  Amanecer: {dateSunrise}
                   <Image
                     src={Icons("Sunrise")}
                     alt="icons"
@@ -94,7 +94,7 @@ const HomePage = () => {
                   />
                 </p>
                 <p className={styles.sunSpotFlex}>
-                  Anochecer: {dateSunset} pm
+                  Anochecer: {dateSunset}
                   <Image
                     src={Icons("Sunset")}
                     alt="icons"

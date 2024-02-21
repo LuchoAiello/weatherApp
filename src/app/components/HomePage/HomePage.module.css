@@ -246,4 +246,11 @@
   font-size: 14px;
 }
 
+@media (max-width: 430px) {
+ .content {
+  border: red solid 2px;
+  width: 95%;
+ }
+}
+
 
